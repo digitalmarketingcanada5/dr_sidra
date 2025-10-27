@@ -19,18 +19,18 @@ export const Header: React.FC = () => {
 
   return (
     <>
-      <header className="absolute top-0 left-0 right-0 z-50 py-4 bg-gradient-to-b from-black/40 to-transparent">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center">
+      <header className="fixed top-0 left-0 right-0 z-50 bg-white shadow-md">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex justify-between items-center py-1">
             {/* Logo */}
-            <Link href="/" className="flex-shrink-0">
+            <Link href="/" className="flex-shrink-0 -my-2">
               <Image 
                 src="/logo.png"
                 alt="Nexus Medical Centre Logo"
-                width={500}
-                height={180}
+                width={450}
+                height={160}
                 priority
-                className="h-40 md:h-52 w-auto"
+                className="h-24 md:h-28 w-auto"
               />
             </Link>
 
@@ -43,7 +43,7 @@ export const Header: React.FC = () => {
                     href={item.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-white text-base font-medium hover:text-[#5DBDC4] transition-colors duration-300"
+                    className="text-gray-700 text-base font-medium hover:text-[#5DBDC4] transition-colors duration-300"
                   >
                     {item.name}
                   </a>
@@ -51,7 +51,7 @@ export const Header: React.FC = () => {
                   <Link 
                     key={item.name}
                     href={item.href}
-                    className="text-white text-base font-medium hover:text-[#5DBDC4] transition-colors duration-300"
+                    className="text-gray-700 text-base font-medium hover:text-[#5DBDC4] transition-colors duration-300"
                   >
                     {item.name}
                   </Link>
@@ -63,7 +63,7 @@ export const Header: React.FC = () => {
             <div className="hidden lg:flex items-center space-x-4">
               <a 
                 href="tel:365-694-5255" 
-                className="flex items-center bg-white/20 backdrop-blur-sm text-white px-4 py-2 rounded-md hover:bg-white/30 transition-colors"
+                className="flex items-center bg-gray-100 text-gray-700 px-4 py-2 rounded-md hover:bg-gray-200 transition-colors"
               >
                 <Phone size={18} className="mr-2" />
                 Call Us
@@ -76,7 +76,7 @@ export const Header: React.FC = () => {
             {/* Mobile Menu Button */}
             <button 
               onClick={() => setIsMenuOpen(true)} 
-              className="lg:hidden text-white"
+              className="lg:hidden text-gray-700"
               aria-label="Open menu"
             >
               <Menu size={32} />
