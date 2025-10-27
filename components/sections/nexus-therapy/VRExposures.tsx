@@ -30,12 +30,12 @@ const exposures: Exposure[] = [
     image: "https://optim.tildacdn.net/tild3132-3030-4534-b139-316436633535/-/resize/480x480/-/format/webp/psytech-vr-public-sp.jpg.webp",
     href: "https://www.psytechvr.com/train-public-speaking-with-psytech-vr"
   },
-  {
-    title: "Germophobia (bacteria & germs)",
-    description: "Germophobia is the fear of BACTERIA, diseases, viruses. VR exposure therapy helps clients gradually confront and manage these fears.",
-    image: "https://optim.tildacdn.net/tild6330-6539-4633-a464-636265346232/-/resize/480x480/-/format/webp/germophobia-Psytechv.jpeg.webp",
-    href: "https://www.psytechvr.com/train-germophobia-in-vr"
-  },
+  // {
+  //   title: "Germophobia (bacteria & germs)",
+  //   description: "Germophobia is the fear of BACTERIA, diseases, viruses. VR exposure therapy helps clients gradually confront and manage these fears.",
+  //   image: "https://optim.tildacdn.net/tild6330-6539-4633-a464-636265346232/-/resize/480x480/-/format/webp/germophobia-Psytechv.jpeg.webp",
+  //   href: "https://www.psytechvr.com/train-germophobia-in-vr"
+  // },
   {
     title: "Insectophobia (cockroaches, flies, etc.)",
     description: "People avoid life circumstances where it is possible to encounter insects. VR therapy provides controlled exposure to help overcome these fears.",
@@ -48,12 +48,12 @@ const exposures: Exposure[] = [
     image: "https://optim.tildacdn.net/tild6339-6263-4566-b530-343966313231/-/resize/480x480/-/format/webp/psytech-vr-germophob.jpg.webp",
     href: "https://www.psytechvr.com/train-nyctophobia-in-vr"
   },
-  {
-    title: "Mysophobia (unsanitary conditions)",
-    description: "Mysophobia is an obsessive state of painful fear of contamination. VR therapy helps manage anxiety through gradual exposure.",
-    image: "https://optim.tildacdn.net/tild6663-3237-4763-a539-366363303230/-/resize/480x480/-/format/webp/psytech-vr-dirt.jpg.webp",
-    href: "https://www.psytechvr.com/train-mysophobia-in-vr"
-  },
+  // {
+  //   title: "Mysophobia (unsanitary conditions)",
+  //   description: "Mysophobia is an obsessive state of painful fear of contamination. VR therapy helps manage anxiety through gradual exposure.",
+  //   image: "https://optim.tildacdn.net/tild6663-3237-4763-a539-366363303230/-/resize/480x480/-/format/webp/psytech-vr-dirt.jpg.webp",
+  //   href: "https://www.psytechvr.com/train-mysophobia-in-vr"
+  // },
   {
     title: "Trypanophobia (needles & syringes)",
     description: "Trypanophobia is a term used to describe the fear of injections. VR exposure therapy helps desensitize and overcome needle-related anxiety.",

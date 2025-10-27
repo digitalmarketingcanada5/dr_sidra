@@ -9,7 +9,7 @@ export const Footer: React.FC = () => {
     { name: 'Nexus Therapy', href: '/nexus-therapy' },
     { name: 'Medical Aesthetics', href: 'https://www.thedermclinic.ca/', external: true },
     { name: 'Newborn Circumcision', href: '/newborn-circumcision' },
-    { name: 'About Dr. Sidra', href: '/about' },
+    { name: 'About', href: '/about' },
     { name: 'Contact', href: '/contact' },
   ];
 

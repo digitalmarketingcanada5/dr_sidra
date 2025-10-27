@@ -8,7 +8,7 @@ import { ArrowRight } from 'lucide-react';
 export const PainlessSection: React.FC = () => {
   return (
     <Section className="bg-white py-12 md:py-16">
-      <div className="grid md:grid-cols-2 gap-8 md:gap-16 items-center">
+      <div className="grid md:grid-cols-2 gap-6 md:gap-10 items-center">
         <div></div>
         <div className="bg-[#f0f8ff] p-8 md:p-12 rounded-lg shadow-md">
           <p className="text-2xl md:text-3xl font-light text-[#003e69] mb-6">

@@ -3,8 +3,7 @@ import { AboutHero } from '@/components/sections/about/AboutHero';
 import { AboutIntro } from '@/components/sections/about/AboutIntro';
 import { DrSidraProfile } from '@/components/sections/about/DrSidraProfile';
 import { WhyChooseNexus } from '@/components/sections/about/WhyChooseNexus';
-import { Affiliations } from '@/components/sections/about/Affiliations';
-import { AboutTestimonials } from '@/components/sections/about/AboutTestimonials';
+// import { AboutTestimonials } from '@/components/sections/about/AboutTestimonials';
 import { AboutCallToAction } from '@/components/sections/about/AboutCallToAction';
 
 export const metadata: Metadata = {
@@ -20,8 +19,7 @@ export default function AboutPage() {
       <AboutIntro />
       <DrSidraProfile />
       <WhyChooseNexus />
-      <Affiliations />
-      <AboutTestimonials />
+      {/* <AboutTestimonials /> */}
       <AboutCallToAction />
     </main>
   );

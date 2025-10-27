@@ -31,48 +31,6 @@ export const FAQSection: React.FC = () => {
             </p>
           </div>
 
-          {/* Accordion Questions */}
-          <div className="mb-8">
-            <AccordionItem title="Why do so many families choose our clinic for circumcision?">
-              <p>
-                Families choose Nexus Medical Centre for circumcision because of our dedicated focus 
-                on providing gentle, professional care for infants.
-              </p>
-              <p>
-                Our procedures use extensive pain control methods including appropriate topical anesthetics 
-                and local anesthetic injections to ensure your baby's comfort.
-              </p>
-              <p>
-                We maintain extremely low complication rates through our careful, professional approach.
-              </p>
-            </AccordionItem>
-
-            <AccordionItem title="Why do parents choose to circumcise their sons?">
-              <p>
-                An infant circumcision is often undertaken for cultural and religious reasons, and there 
-                can be health benefits as well.
-              </p>
-              <p>
-                Many families circumcise their babies in accordance with their traditions, or to carry 
-                on family custom. Some potential health considerations include:
-              </p>
-              <ul className="list-disc pl-6 space-y-1">
-                <li>It may reduce the risk of urinary tract infection.</li>
-                <li>It may reduce the risk of penile infection.</li>
-                <li>It eliminates the need for circumcision later in life when complications are more common.</li>
-                <li>Some studies suggest reduced risk of certain sexually transmitted diseases.</li>
-                <li>May have protective factors for certain conditions.</li>
-              </ul>
-            </AccordionItem>
-
-            <AccordionItem title="Why do some parents choose not to circumcise their sons?">
-              <p>They may be concerned about performing a procedure on an otherwise healthy baby.</p>
-              <p>They wonder whether their child will wish he had not been circumcised later in life.</p>
-              <p>Some parents prefer not to follow cultural and religious traditions.</p>
-              <p>They may want to research medical considerations more thoroughly before deciding.</p>
-            </AccordionItem>
-          </div>
-
           <h2 className="text-3xl font-semibold text-[#003e69] mb-6">Circumcision FAQ</h2>
           <div>
             <AccordionItem title="What is Circumcision?" titleIcon={true}>

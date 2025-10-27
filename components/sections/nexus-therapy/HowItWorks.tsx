@@ -24,6 +24,7 @@ export const HowItWorks: React.FC = () => {
         <div className="absolute bottom-6 left-6 text-white">
           <h3 className="text-3xl font-bold mb-2">Nexus VR Therapy</h3>
           <p className="text-lg">Virtual Reality Exposure Therapy system</p>
+          <p className="text-base mt-1 font-light">In collaboration with PsyTech</p>
         </div>
       </div>
       

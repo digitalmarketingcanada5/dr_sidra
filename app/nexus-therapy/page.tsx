@@ -4,7 +4,7 @@ import React from 'react';
 import { NexusTherapyHero } from '@/components/sections/nexus-therapy/NexusTherapyHero';
 import { WhoIsThisFor } from '@/components/sections/nexus-therapy/WhoIsThisFor';
 import { HowItWorks } from '@/components/sections/nexus-therapy/HowItWorks';
-import { FlexibleTherapy } from '@/components/sections/nexus-therapy/FlexibleTherapy';
+// import { FlexibleTherapy } from '@/components/sections/nexus-therapy/FlexibleTherapy';
 import { WhatWeTreat } from '@/components/sections/nexus-therapy/WhatWeTreat';
 import { VRExposures } from '@/components/sections/nexus-therapy/VRExposures';
 import { VRRelaxation } from '@/components/sections/nexus-therapy/VRRelaxation';
@@ -15,7 +15,7 @@ export default function NexusTherapyPage() {
       <NexusTherapyHero />
       <WhoIsThisFor />
       <HowItWorks />
-      <FlexibleTherapy />
+      {/* <FlexibleTherapy /> */}
       <WhatWeTreat />
       <VRExposures />
       <VRRelaxation />

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Section, SectionHeader } from '@/components/ui/Section';
+import { Section } from '@/components/ui/Section';
 
 export const DrSidraProfile: React.FC = () => {
   return (
@@ -7,72 +7,71 @@ export const DrSidraProfile: React.FC = () => {
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-semibold text-[#2C3E50] mb-4">
-            Meet Dr. Sidra Malik
+            Our Mission
           </h2>
           <p className="text-xl text-[#5DBDC4] font-medium">
-            MBBS, BSc Hons, CFPC
+            Transforming Healthcare Through Innovation and Compassion
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 mb-12">
-          <div className="md:col-span-1">
-            <div className="rounded-lg overflow-hidden shadow-xl">
-              <img 
-                src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?q=80&w=2070" 
-                alt="Dr. Sidra Malik"
-                className="w-full h-auto object-cover"
-              />
-            </div>
-          </div>
-          
-          <div className="md:col-span-2 space-y-6 text-[#5A5A5A] leading-relaxed">
-            <p className="text-lg">
-              Dr. Sidra is a forward-thinking family physician committed to redefining patient care 
-              through innovation and technology. With extensive experience in primary care and mental 
-              health support, she integrates advanced tools such as VR exposure therapy to improve 
-              outcomes in anxiety, phobias, and trauma-related conditions.
-            </p>
-            
-            <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-[#5DBDC4]">
-              <h3 className="text-xl font-semibold text-[#2C3E50] mb-3">Clinical Philosophy</h3>
-              <p>
-                Her clinical philosophy centers on proactive, data-informed care, empowering patients 
-                with personalized strategies rather than one-size-fits-all solutions. Passionate about 
-                bridging medicine with modern technology, Dr. Sidra is dedicated to building a future 
-                where healthcare is immersive, precise, and deeply human.
+        <div className="space-y-8 text-[#5A5A5A] leading-relaxed">
+          <p className="text-lg text-center max-w-3xl mx-auto">
+            At Nexus Medical Centre, we are committed to redefining healthcare by integrating 
+            cutting-edge technology with compassionate, patient-centered care. Our mission is to 
+            provide innovative medical solutions that enhance the well-being of individuals and 
+            families in our community.
+          </p>
+
+          <div className="grid md:grid-cols-2 gap-6 mt-12">
+            <div className="bg-white p-8 rounded-lg shadow-md border-l-4 border-[#5DBDC4]">
+              <h3 className="text-2xl font-semibold text-[#2C3E50] mb-4">Our Vision</h3>
+              <p className="text-base leading-relaxed">
+                To be a leader in innovative healthcare delivery, where advanced medical technology 
+                meets personalized care. We envision a future where every patient receives precise, 
+                effective treatment tailored to their unique needs, empowering them to achieve optimal 
+                health and wellness.
               </p>
             </div>
 
-            <div className="grid sm:grid-cols-2 gap-4">
-              <div className="bg-[#5DBDC4] bg-opacity-10 p-4 rounded-lg">
-                <h4 className="font-semibold text-[#2C3E50] mb-2">Areas of Expertise</h4>
-                <ul className="text-sm space-y-1">
-                  <li>• Primary Care Medicine</li>
-                  <li>• Mental Health Support</li>
-                  <li>• VR Exposure Therapy</li>
-                  <li>• Preventive Healthcare</li>
-                </ul>
-              </div>
-              
-              <div className="bg-[#5DBDC4] bg-opacity-10 p-4 rounded-lg">
-                <h4 className="font-semibold text-[#2C3E50] mb-2">Professional Focus</h4>
-                <ul className="text-sm space-y-1">
-                  <li>• Anxiety & Phobias</li>
-                  <li>• Trauma-Related Conditions</li>
-                  <li>• Innovative Therapeutics</li>
-                  <li>• Patient Empowerment</li>
-                </ul>
-              </div>
+            <div className="bg-white p-8 rounded-lg shadow-md border-l-4 border-[#5DBDC4]">
+              <h3 className="text-2xl font-semibold text-[#2C3E50] mb-4">Our Values</h3>
+              <ul className="space-y-3 text-base">
+                <li className="flex items-start">
+                  <span className="text-[#5DBDC4] font-bold mr-3">•</span>
+                  <span><strong>Innovation:</strong> Embracing the latest medical technology</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-[#5DBDC4] font-bold mr-3">•</span>
+                  <span><strong>Compassion:</strong> Treating every patient with care and respect</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-[#5DBDC4] font-bold mr-3">•</span>
+                  <span><strong>Excellence:</strong> Delivering the highest quality of care</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-[#5DBDC4] font-bold mr-3">•</span>
+                  <span><strong>Empowerment:</strong> Supporting patients in their health journey</span>
+                </li>
+              </ul>
             </div>
           </div>
-        </div>
 
-        <div className="bg-[#2C3E50] text-white p-8 rounded-lg text-center">
-          <p className="text-lg italic mb-4">
-            "I believe in empowering patients with personalized strategies and cutting-edge technology 
-            to achieve optimal health outcomes. Healthcare should be immersive, precise, and deeply human."
-          </p>
-          <p className="font-semibold">— Dr. Sidra Malik</p>
+          <div className="bg-white p-8 rounded-lg shadow-md mt-8">
+            <h3 className="text-2xl font-semibold text-[#2C3E50] mb-4 text-center">What Drives Us</h3>
+            <p className="text-base leading-relaxed mb-6">
+              We believe that healthcare should be more than treating symptoms—it should be about 
+              understanding each patient's unique story and providing solutions that address the root 
+              causes of health concerns. Our approach combines state-of-the-art medical technology, 
+              including VR therapy, medical aesthetics, and specialized newborn care, with a deep 
+              commitment to patient well-being.
+            </p>
+            <p className="text-base leading-relaxed">
+              Every member of our team is dedicated to creating a welcoming, professional environment 
+              where patients feel heard, respected, and empowered to take control of their health. 
+              We strive to build lasting relationships with our patients and their families, supporting 
+              them through every stage of life with expertise, innovation, and genuine care.
+            </p>
+          </div>
         </div>
       </div>
     </Section>

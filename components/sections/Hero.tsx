@@ -24,12 +24,9 @@ export const Hero: React.FC = () => {
             across every service—from advanced medical aesthetics and newborn procedures to modern 
             therapeutic care.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4">
+          <div>
             <Button href="/contact" variant="primary" className="text-lg px-10 py-4">
               Book an Appointment
-            </Button>
-            <Button href="/about" variant="outline" className="text-lg px-10 py-4">
-              Learn More
             </Button>
           </div>
         </div>

@@ -5,38 +5,58 @@ import { Button } from '@/components/ui/Button';
 export const About: React.FC = () => {
   return (
     <Section className="bg-gray-50">
-      <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
-        <div className="rounded-lg overflow-hidden shadow-lg">
-          <img 
-            src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=2070" 
-            alt="Dr. Sidra Malik"
-            className="w-full h-full object-cover"
-          />
-        </div>
-        <div>
-          <h2 className="text-4xl md:text-5xl font-semibold text-[#2C3E50] mb-6">
-            Meet Dr. Sidra Malik
+      <div className="max-w-5xl mx-auto">
+        <div className="text-center mb-12">
+          <h2 className="text-4xl md:text-5xl font-semibold text-[#2C3E50] mb-4">
+            Our Mission
           </h2>
-          <div className="text-[#5A5A5A] space-y-4 leading-relaxed">
-            <p className="font-medium text-lg text-[#2C3E50]">
-              MBBS, BSc Hons, CFPC
-            </p>
-            <p>
-              Dr. Sidra is a forward-thinking family physician committed to redefining patient care 
-              through innovation and technology. With extensive experience in primary care and mental 
-              health support, she integrates advanced tools such as VR exposure therapy to improve 
-              outcomes in anxiety, phobias, and trauma-related conditions.
-            </p>
-            <p>
-              Her clinical philosophy centers on proactive, data-informed care, empowering patients 
-              with personalized strategies rather than one-size-fits-all solutions. Passionate about 
-              bridging medicine with modern technology, Dr. Sidra is dedicated to building a future 
-              where healthcare is immersive, precise, and deeply human.
-            </p>
+          <p className="text-xl text-[#5DBDC4] font-medium">
+            Transforming Healthcare Through Innovation and Compassion
+          </p>
+        </div>
+
+        <div className="text-[#5A5A5A] space-y-8">
+          <p className="text-lg text-center leading-relaxed">
+            At Nexus Medical Centre, we are committed to redefining healthcare by integrating 
+            cutting-edge technology with compassionate, patient-centered care. Our mission is to 
+            provide innovative medical solutions that enhance the well-being of individuals and 
+            families in our community.
+          </p>
+
+          <div className="grid md:grid-cols-3 gap-6 mt-12">
+            <div className="bg-white p-6 rounded-lg shadow-md text-center">
+              <div className="text-[#5DBDC4] text-4xl mb-4">🎯</div>
+              <h3 className="text-xl font-semibold text-[#2C3E50] mb-3">Our Vision</h3>
+              <p className="text-sm leading-relaxed">
+                To be a leader in innovative healthcare delivery, where advanced medical technology 
+                meets personalized care tailored to each patient's unique needs.
+              </p>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-md text-center">
+              <div className="text-[#5DBDC4] text-4xl mb-4">💡</div>
+              <h3 className="text-xl font-semibold text-[#2C3E50] mb-3">Innovation</h3>
+              <p className="text-sm leading-relaxed">
+                We embrace the latest medical technology including VR therapy, medical aesthetics, 
+                and specialized care to provide cutting-edge treatment options.
+              </p>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-md text-center">
+              <div className="text-[#5DBDC4] text-4xl mb-4">❤️</div>
+              <h3 className="text-xl font-semibold text-[#2C3E50] mb-3">Compassion</h3>
+              <p className="text-sm leading-relaxed">
+                Every patient is treated with care, respect, and genuine concern for their well-being 
+                throughout their healthcare journey with us.
+              </p>
+            </div>
           </div>
-          <Button href="/about" variant="outline" className="mt-8">
-            Learn More About Dr. Sidra
-          </Button>
+
+          <div className="text-center mt-8">
+            <Button href="/about" variant="primary">
+              Learn More About Us
+            </Button>
+          </div>
         </div>
       </div>
     </Section>

@@ -107,7 +107,6 @@ export const VRRelaxation: React.FC = () => {
                 />
               </div>
               <div className="p-5 bg-white">
-                <p className="text-xs text-[#00aaff] font-semibold uppercase mb-1">{item.subtitle}</p>
                 <h4 className="text-lg font-semibold text-[#4A4A4A] mb-2 group-hover:text-[#1f5bff] transition-colors">
                   {item.title}
                 </h4>
