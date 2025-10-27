@@ -52,14 +52,25 @@ export const WhyChooseUsSection: React.FC = () => {
         </div>
         <div>
           <div className="space-y-4">
-            {galleryImages.map((src, index) => (
+            {/* First Image - Full Width */}
+            <img 
+              src={galleryImages[0]} 
+              alt="Clinic Image 1" 
+              className="w-full h-auto rounded-lg shadow-md object-cover" 
+            />
+            {/* Second and Third Images - Side by Side */}
+            <div className="grid grid-cols-2 gap-4">
               <img 
-                key={index} 
-                src={src} 
-                alt={`Clinic Image ${index + 1}`} 
+                src={galleryImages[1]} 
+                alt="Clinic Image 2" 
                 className="w-full h-auto rounded-lg shadow-md object-cover" 
               />
-            ))}
+              <img 
+                src={galleryImages[2]} 
+                alt="Clinic Image 3" 
+                className="w-full h-auto rounded-lg shadow-md object-cover" 
+              />
+            </div>
           </div>
         </div>
       </div>

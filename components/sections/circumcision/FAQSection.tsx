@@ -3,26 +3,12 @@
 import React from 'react';
 import { Section } from '@/components/ui/Section';
 import { AccordionItem } from '@/components/ui/Accordion';
-import Link from 'next/link';
-
-// SVG Icons
-const BabyIcon = () => (
-  <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-    <path d="M154.3 230.1v18.5c0 4.1 3.4 7.5 7.5 7.5s7.5-3.4 7.5-7.5v-18.5c0-4.1-3.4-7.5-7.5-7.5-4.1.0-7.5 3.4-7.5 7.5zm188.4 0v18.5c0 4.1 3.4 7.5 7.5 7.5s7.5-3.4 7.5-7.5v-18.5c0-4.1-3.4-7.5-7.5-7.5s-7.5 3.4-7.5 7.5zM323.3 283c-9.4-7.5-21.4-10.2-33.1-7.5-3.3.8-6.7 1.4-10.2 2-6.9-4.6-15.2-7.3-24.1-7.3s-17.2 2.7-24.1 7.3c-3.4-.5-6.8-1.2-10.2-2-11.7-2.7-23.7.1-33.1 7.5s-14.7 18.6-14.7 30.6 5.4 23.1 14.7 30.6c7 5.6 15.5 8.5 24.3 8.5 2.9 0 5.9-.3 8.8-1 3.3-.8 6.7-1.4 10.2-2 6.9 4.6 15.2 7.3 24.1 7.3s17.2-2.7 24.1-7.3c3.4.5 6.8 1.2 10.2 2 2.9.7 5.9 1 8.8 1 8.7 0 17.3-2.9 24.3-8.5 9.4-7.5 14.7-18.6 14.7-30.6s-5.4-23.1-14.7-30.6z"/>
-  </svg>
-);
-
-const CalendarIcon = () => (
-  <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-    <path d="M9 21H2.5A2.5 2.5 0 0 1 0 18.5v-14A2.5 2.5 0 0 1 2.5 2h12A2.5 2.5 0 0 1 17 4.5v4.06a.5.5 0 0 1-1 0V4.5a1.5 1.5 0 0 0-1.5-1.5h-12A1.5 1.5 0 0 0 1 4.5v14a1.5 1.5 0 0 0 1.5 1.5H9a.5.5 0 0 1 0 1z"/>
-  </svg>
-);
 
 export const FAQSection: React.FC = () => {
   return (
     <Section className="bg-white">
-      <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-start">
-        {/* Left Column: Text & Accordions */}
+      <div className="max-w-4xl mx-auto">
+        {/* Full Width Content */}
         <div className="bg-[#f0f8ff] p-8 md:p-12 rounded-lg shadow-md">
           <h2 className="text-3xl font-semibold text-[#003e69] mb-6">
             Circumcision Considerations and Research
@@ -138,38 +124,6 @@ export const FAQSection: React.FC = () => {
                 level and provide a calm atmosphere during the procedure.
               </p>
             </AccordionItem>
-          </div>
-        </div>
-
-        {/* Right Column: Info Links */}
-        <div>
-          <p className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-6">
-            LEARN MORE
-          </p>
-          <div className="space-y-4">
-            <Link 
-              href="/newborn-circumcision" 
-              className="flex items-center p-4 border border-gray-200 rounded-lg hover:shadow-md transition-shadow group"
-            >
-              <div className="flex-shrink-0 w-12 h-12 flex items-center justify-center border-2 border-[#17a2b8] rounded-full mr-4 text-[#17a2b8] group-hover:bg-[#17a2b8] group-hover:text-white transition-colors">
-                <BabyIcon />
-              </div>
-              <p className="text-lg font-medium text-gray-700 group-hover:text-[#17a2b8] transition-colors">
-                Baby Circumcision Info
-              </p>
-            </Link>
-
-            <Link 
-              href="/contact" 
-              className="flex items-center p-4 border border-gray-200 rounded-lg hover:shadow-md transition-shadow group"
-            >
-              <div className="flex-shrink-0 w-12 h-12 flex items-center justify-center border-2 border-[#17a2b8] rounded-full mr-4 text-[#17a2b8] group-hover:bg-[#17a2b8] group-hover:text-white transition-colors">
-                <CalendarIcon />
-              </div>
-              <p className="text-lg font-medium text-gray-700 group-hover:text-[#17a2b8] transition-colors">
-                Book Appointment
-              </p>
-            </Link>
           </div>
         </div>
       </div>

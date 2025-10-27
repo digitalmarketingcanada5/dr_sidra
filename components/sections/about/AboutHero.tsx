@@ -7,7 +7,7 @@ export const AboutHero: React.FC = () => {
     <div 
       className="relative min-h-[50vh] md:min-h-[500px] flex items-center justify-start text-white bg-cover bg-center py-20 md:py-32"
       style={{ 
-        backgroundImage: "linear-gradient(rgba(44, 62, 80, 0.6), rgba(44, 62, 80, 0.6)), url('https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=2070')"
+        backgroundImage: "linear-gradient(rgba(44, 62, 80, 0.6), rgba(44, 62, 80, 0.6)), url('https://images.unsplash.com/photo-1559757175-5700dde675bc?q=80&w=2070')"
       }}
     >
       {/* Content */}

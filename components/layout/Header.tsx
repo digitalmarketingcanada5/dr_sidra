@@ -27,10 +27,10 @@ export const Header: React.FC = () => {
               <Image 
                 src="/logo.png"
                 alt="Nexus Medical Centre Logo"
-                width={280}
-                height={100}
+                width={500}
+                height={180}
                 priority
-                className="h-20 md:h-24 w-auto"
+                className="h-40 md:h-52 w-auto"
               />
             </Link>
 
