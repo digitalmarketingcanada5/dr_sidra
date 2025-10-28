@@ -37,7 +37,7 @@ export const FinalInfoSection: React.FC = () => {
           </h2>
           <div className="prose max-w-none text-gray-700 space-y-4 mb-8">
             <p>
-              Our clinic routinely performs circumcision for baby boys up to 12 months of age.
+              Our clinic routinely performs circumcision for baby boys up to 8 months of age.
             </p>
             <p>
               Please call us anytime during clinic hours or use the contact form to let us know 

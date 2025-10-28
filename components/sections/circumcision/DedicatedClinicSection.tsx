@@ -16,7 +16,7 @@ export const DedicatedClinicSection: React.FC = () => {
       <SectionHeader title="Professional Circumcision Services" />
       <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
         <p>
-          Nexus Medical Centre provides professional circumcision services for baby boys up to 12 months, 
+          Nexus Medical Centre provides professional circumcision services for baby boys up to 8 months, 
           led by experienced medical professionals who prioritize your baby's comfort and safety.
         </p>
         <p>
