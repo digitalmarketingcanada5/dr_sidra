@@ -3,12 +3,12 @@ import { Button } from '@/components/ui/Button';
 
 export const Hero: React.FC = () => {
   return (
-    <div className="relative h-screen min-h-[700px] flex items-center justify-start text-white overflow-hidden">
+    <div className="relative min-h-[600px] md:min-h-[700px] lg:min-h-[750px] flex items-center justify-start text-white overflow-hidden">
       {/* Background Image with overlay */}
       <div 
         className="absolute top-0 left-0 w-full h-full bg-cover bg-center z-0"
         style={{ 
-          backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://images.unsplash.com/photo-1559757175-5700dde675bc?q=80&w=2070')"
+          backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/hero.png')"
         }}
       />
 
