@@ -35,16 +35,37 @@ export const ContactForm: React.FC = () => {
     e.preventDefault();
     setIsSubmitting(true);
     setSubmitStatus(null);
-    console.log("Form Data:", formData);
 
-    // Simulate API call
     try {
-      await new Promise(resolve => setTimeout(resolve, 1500)); 
-      console.log("Form submitted successfully (simulated)");
-      setSubmitStatus('success');
-      setFormData({ firstName: '', lastName: '', phone: '', email: '', message: '', optin: false });
+      // Create email body with form data
+      const emailBody = `
+First Name: ${formData.firstName}
+Last Name: ${formData.lastName}
+Phone: ${formData.phone}
+Email: ${formData.email}
+
+Message:
+${formData.message}
+
+Opt-in for communications: ${formData.optin ? 'Yes' : 'No'}
+      `.trim();
+
+      // Create email subject
+      const emailSubject = `Contact Form Submission from ${formData.firstName} ${formData.lastName}`;
+
+      // Create mailto link
+      const mailtoLink = `mailto:info@nexusmedcentre.com?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
+
+      // Open default email client
+      window.location.href = mailtoLink;
+
+      // Show success message after a short delay
+      setTimeout(() => {
+        setSubmitStatus('success');
+        setFormData({ firstName: '', lastName: '', phone: '', email: '', message: '', optin: false });
+      }, 500);
     } catch (error) {
-      console.error("Form submission error (simulated):", error);
+      console.error("Form submission error:", error);
       setSubmitStatus('error');
     } finally {
       setIsSubmitting(false);
