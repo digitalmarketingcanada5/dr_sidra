@@ -45,7 +45,7 @@ export const FinalInfoSection: React.FC = () => {
             </p>
           </div>
           <Button 
-            href="/contact" 
+            href="https://book2.getweave.com/9ca18ecd-b3cb-4c47-9685-d41934436720/request-appointment?source=WEBSITE" 
             variant="primary"
             className="bg-[#17a2b8] hover:bg-[#138496]"
           >

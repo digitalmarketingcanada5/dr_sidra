@@ -12,7 +12,7 @@ export const ContactScheduleCTA: React.FC = () => {
           Schedule Your Appointment Today!
         </h2>
         <Button 
-          href="/contact" 
+          href="https://book2.getweave.com/9ca18ecd-b3cb-4c47-9685-d41934436720/request-appointment?source=WEBSITE" 
           variant="outline" 
           className="border-white text-white hover:bg-white hover:text-[#5DBDC4]"
         >

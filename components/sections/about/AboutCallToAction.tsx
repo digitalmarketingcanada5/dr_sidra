@@ -23,7 +23,7 @@ export const AboutCallToAction: React.FC = () => {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button 
-            href="/contact"
+            href="https://book2.getweave.com/9ca18ecd-b3cb-4c47-9685-d41934436720/request-appointment?source=WEBSITE"
             variant="primary"
             className="text-lg px-10 py-4"
           >

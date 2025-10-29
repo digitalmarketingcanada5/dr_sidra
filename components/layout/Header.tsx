@@ -68,7 +68,7 @@ export const Header: React.FC = () => {
                 <Phone size={18} className="mr-2" />
                 Call Us
               </a>
-              <Button href="/contact" variant="primary">
+              <Button href="https://book2.getweave.com/9ca18ecd-b3cb-4c47-9685-d41934436720/request-appointment?source=WEBSITE" variant="primary">
                 Book Appointment
               </Button>
             </div>
@@ -133,7 +133,7 @@ export const Header: React.FC = () => {
           
           <div className="p-6 border-t border-white/20 space-y-4">
             <Button 
-              href="/contact" 
+              href="https://book2.getweave.com/9ca18ecd-b3cb-4c47-9685-d41934436720/request-appointment?source=WEBSITE" 
               className="w-full"
               variant="primary"
             >

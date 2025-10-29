@@ -19,7 +19,7 @@ export const NexusTherapyHero: React.FC = () => {
             Revolutionizing mental wellness through immersive VR experiences.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button href="/contact" variant="primary" className="text-lg px-10 py-4">
+            <Button href="https://book2.getweave.com/9ca18ecd-b3cb-4c47-9685-d41934436720/request-appointment?source=WEBSITE" variant="primary" className="text-lg px-10 py-4">
               Book Consultation
             </Button>
             <Button 
