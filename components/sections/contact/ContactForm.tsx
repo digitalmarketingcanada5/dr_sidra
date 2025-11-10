@@ -54,7 +54,7 @@ Opt-in for communications: ${formData.optin ? 'Yes' : 'No'}
       const emailSubject = `Contact Form Submission from ${formData.firstName} ${formData.lastName}`;
 
       // Create mailto link
-      const mailtoLink = `mailto:info@nexusmedcentre.com?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
+      const mailtoLink = `mailto:info@nexusmedicalcare.ca?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
 
       // Open default email client
       window.location.href = mailtoLink;

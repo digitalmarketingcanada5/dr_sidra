@@ -25,12 +25,12 @@ export const Header: React.FC = () => {
             {/* Logo */}
             <Link href="/" className="flex-shrink-0 -my-2">
               <Image 
-                src="/logo.png"
+                src="/logo1.png"
                 alt="Nexus Medical Centre Logo"
-                width={450}
-                height={160}
+                width={650}
+                height={230}
                 priority
-                className="h-24 md:h-28 w-auto"
+                className="h-36 md:h-40 w-auto"
               />
             </Link>
 
@@ -68,7 +68,7 @@ export const Header: React.FC = () => {
                 <Phone size={18} className="mr-2" />
                 Call Us
               </a>
-              <Button href="https://book2.getweave.com/9ca18ecd-b3cb-4c47-9685-d41934436720/request-appointment?source=WEBSITE" variant="primary">
+              <Button href="/contact" variant="primary">
                 Book Appointment
               </Button>
             </div>
@@ -133,7 +133,7 @@ export const Header: React.FC = () => {
           
           <div className="p-6 border-t border-white/20 space-y-4">
             <Button 
-              href="https://book2.getweave.com/9ca18ecd-b3cb-4c47-9685-d41934436720/request-appointment?source=WEBSITE" 
+              href="/contact" 
               className="w-full"
               variant="primary"
             >

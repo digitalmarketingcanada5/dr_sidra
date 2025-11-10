@@ -22,7 +22,7 @@ export const AboutHero: React.FC = () => {
             precise, and deeply human.
           </p>
           <Button 
-            href="https://book2.getweave.com/9ca18ecd-b3cb-4c47-9685-d41934436720/request-appointment?source=WEBSITE"
+            href="/contact"
             variant="primary"
           >
             Book an Appointment

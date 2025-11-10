@@ -23,7 +23,7 @@ export const CircumcisionHero: React.FC = () => {
           </h2>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button 
-              href="https://book2.getweave.com/9ca18ecd-b3cb-4c47-9685-d41934436720/request-appointment?source=WEBSITE" 
+              href="/contact" 
               variant="primary" 
               className="bg-[#17a2b8] hover:bg-[#138496]"
             >

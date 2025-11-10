@@ -22,11 +22,11 @@ export const Footer: React.FC = () => {
           <div className="space-y-6">
             <Link href="/" className="inline-block">
               <Image 
-                src="/logo.png"
+                src="/logo1.png"
                 alt="Nexus Medical Centre Logo"
-                width={280}
-                height={100}
-                className="h-auto w-64"
+                width={350}
+                height={125}
+                className="h-auto w-80"
               />
             </Link>
             <p className="text-sm text-gray-300">
@@ -92,8 +92,8 @@ export const Footer: React.FC = () => {
               </p>
               <p className="flex items-start">
                 <Mail size={18} className="mr-2 mt-1 flex-shrink-0" />
-                <a href="mailto:info@nexusmedcentre.com" className="hover:text-[#5DBDC4] hover:underline">
-                  info@nexusmedcentre.com
+                <a href="mailto:info@nexusmedicalcare.ca" className="hover:text-[#5DBDC4] hover:underline">
+                  info@nexusmedicalcare.ca
                 </a>
               </p>
               <p className="flex items-start">

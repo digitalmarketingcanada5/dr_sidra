@@ -10,9 +10,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Nexus Medical Centre | Dr. Sidra Malik - Innovative Healthcare in Unionville",
-  description: "Experience cutting-edge healthcare with VR therapy, medical aesthetics, and compassionate newborn care. Led by Dr. Sidra Malik in Unionville, ON.",
-  keywords: ["Virtual reality therapy", "VR exposure therapy", "Newborn circumcision", "Medical aesthetics", "Dr. Sidra Malik", "Nexus Medical Centre", "Unionville healthcare"],
+  title: "Nexus Medical Centre - Innovative Healthcare in Unionville",
+  description: "Experience cutting-edge healthcare with VR therapy, medical aesthetics, and compassionate newborn care in Unionville, ON.",
+  keywords: ["Virtual reality therapy", "VR exposure therapy", "Newborn circumcision", "Medical aesthetics", "Nexus Medical Centre", "Unionville healthcare"],
 };
 
 export default function RootLayout({

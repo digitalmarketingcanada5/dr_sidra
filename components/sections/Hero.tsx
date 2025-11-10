@@ -25,7 +25,7 @@ export const Hero: React.FC = () => {
             therapeutic care.
           </p>
           <div>
-            <Button href="https://book2.getweave.com/9ca18ecd-b3cb-4c47-9685-d41934436720/request-appointment?source=WEBSITE" variant="primary" className="text-lg px-10 py-4">
+            <Button href="/contact" variant="primary" className="text-lg px-10 py-4">
               Book an Appointment
             </Button>
           </div>
